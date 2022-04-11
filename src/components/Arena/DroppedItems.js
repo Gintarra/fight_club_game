@@ -321,25 +321,15 @@ const DroppedItems = () => {
     }, [])
 
 
-    //liko bugas su tais, kurie neturi isvis keys maxDropItems
-    // if(!Object.keys(stateMonster).includes("maxItemDrop")){
-    //     setItemsArr([]);
-    // }
-
     const runCallback = (cb) => {
         return cb();
     };
-
-
-
-    console.log(itemsArr);
 
 
     function randomNumber(num) {
         return Math.round(Math.random() * num)
     }
     function addToInventory(x, i) {
-        console.log("add to inventory");
         if (state.inventorySlots > itemsState.length) {
             dispatch(setItems(x));
             const helpArray = itemsArr;

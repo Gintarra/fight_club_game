@@ -443,7 +443,7 @@ const Inventory = () => {
         return cb();
     };
 
-    //sudeti ginklo bonusus i stats ir i weapon array
+
     function chooseWeapon(weapon, index) {
         if (Object.keys(weapon).includes("maxDamage")) {
             if (stateWeapon !== null) {
@@ -452,22 +452,6 @@ const Inventory = () => {
                 dispatch(removeSoldItem(index));
                 dispatch(setItems(tempValue));
                 updateAllStatsRemove(tempValue);
-                // if(tempValue.effects.effect.inventorySlots > 0){
-                //  if (Object.keys(weapon.effects.effect[inventorySlots]) && Object.keys(tempValue.effects.effect).includes("inventorySlots")) {
-                //     console.log("abu turi slotus")
-                //  }
-
-                //  tempValue.effects.map(x => x.effect.includes("inventorySlots") ? console.log(x.effect, "yes") : console.log(x, "no"))
-                // console.log(state.inventorySlots, " playerio inventory slots")
-
-                // player.inventorySlots - oldWeapon + norimas keisti weaponas < itemsState.lenght => tuomet ok
-                // jei ne tada alertas, kad atlaisvink vietos
-
-                // const oldSlots = tempValue.effects.effect.inventorySlots;
-                // const nowSlots = weapon.effects.effect.inventorySlots;
-                // console.log(oldSlots, "seni slotai")
-                // console.log(nowSlots, "nauji slotai")
-                // }
             } else {
                 dispatch(setWeapon(weapon));
                 dispatch(removeSoldItem(index));
@@ -522,7 +506,7 @@ const Inventory = () => {
                         const row = [];
                         for (let i = 0; i < state.inventorySlots; i++) {
                             row.push(<div key={i} className='smallBox2'>
-                                {window.location.pathname === "/shop" ? !!itemsState[i] && <div> <img src={itemsState[i].image} alt="" />
+                                {window.location.hash === "#/shop" ? !!itemsState[i] && <div> <img src={itemsState[i].image} alt="" />
                                     <button onClick={() => sellItem(itemsState[i], i)} className='btn'>Sell</button></div> :
                                     !!itemsState[i] && <div>
                                         <img onClick={() => chooseWeapon(itemsState[i], i)} src={itemsState[i].image} alt="" />
