@@ -1,0 +1,391 @@
+.characterBox {
+  height: auto;
+  width: 250px;
+  border: solid black 1px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(184, 233, 241);
+  box-shadow: 0px 0px 20px 5px rgba(65, 63, 63, 0.88);
+}
+
+.characterBox img {
+  height: 300px;
+  width: 100%;
+}
+
+.startGameBox {
+  background-color: rgb(209, 204, 200);
+  padding: 20px;
+}
+.characterBox li {
+  font-weight: bold;
+}
+.characterBox:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.navBar {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  background-color: rgb(97, 96, 94);
+  padding: 10px;
+  height: 40px;
+}
+.link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+}
+.link:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.characterBox2 {
+  height: 500px;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(184, 233, 241);
+  box-shadow: 0px 0px 20px 5px rgba(65, 63, 63, 0.88);
+}
+.characterBox2 img {
+  height: 400px;
+  width: 300px;
+}
+.card {
+  height: 200px;
+}
+.inventory {
+  height: 500px;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(184, 233, 241);
+  box-shadow: 0px 0px 20px 5px rgba(65, 63, 63, 0.88);
+}
+.smallBox {
+  border: solid 1px black;
+  height: 80px;
+  width: 80px;
+}
+.smallBox img {
+  height: 80px;
+  width: 80px;
+}
+.smallBox2 {
+  border: solid 1px black;
+  height: 80px;
+  width: 80px;
+  margin: 15px;
+}
+
+.smallBox2 img {
+  height: 80px;
+  width: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.shopBox {
+  padding: 20px 20px 20px 20px;
+  margin: 20px;
+  background-color: rgb(184, 233, 241);
+  box-shadow: 0px 0px 20px 5px rgba(65, 63, 63, 0.88);
+  height: auto;
+}
+
+.toolbarMini {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  background-color: rgb(247, 244, 238);
+  height: 60px;
+}
+.link2 {
+  text-align: center;
+  height: 100%;
+}
+.link2:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.weaponBox {
+  border: solid 1px black;
+  padding: 10px;
+  width: 110px;
+  height: auto;
+}
+.weaponBox:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  border: 2px solid black;
+}
+
+.weaponBox img {
+  height: 50%;
+}
+.btn {
+  width: 100%;
+  font-weight: bold;
+  background-color: rgb(74, 77, 77);
+  border: none;
+  padding: 5px 10px;
+  color: white;
+}
+.btn:hover,
+.arenaBtn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.barBorder {
+  width: 300px;
+  border: 1px solid black;
+}
+.barColor {
+  height: 20px;
+  background-color: rgb(28, 115, 228);
+}
+.characterBox3 {
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(184, 233, 241);
+  box-shadow: 0px 0px 20px 5px rgba(65, 63, 63, 0.88);
+}
+.characterBox3 img {
+  height: 400px;
+  width: 300px;
+}
+.arenaBtn {
+  padding: 20px 20px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 8px 2px rgba(65, 63, 63, 0.88);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  width: 50%;
+  font-size: 18px;
+  font-weight: bold;
+}
+.icon {
+  margin: 30px 0 0 30px;
+  height: 80px;
+  width: 80px;
+}
+
+.icon img {
+  height: 100%;
+  width: 100%;
+}
+.dropItem {
+  height: 100px;
+  width: 100px;
+}
+.dropBox {
+  border: solid 1px black;
+  padding: 10px;
+  width: 110px;
+  height: auto;
+}
+
+.dropBox2 {
+  height: 690px;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(184, 233, 241);
+  box-shadow: 0px 0px 20px 5px rgba(65, 63, 63, 0.88);
+}
+.hoverImg:hover, .monsterWonBtn:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.monsterWon {
+  color: white;
+
+}
+.monsterWon p {
+  font-weight: bold;
+  font-size: 26px;
+}
+.monsterWonBtn {
+  background-color: rgba(0, 0, 0);
+  padding: 10px 30px;
+  width: 200px;
+  padding: 20px 20px;
+  box-shadow: 0px 0px 8px 2px rgba(65, 63, 63, 0.88);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* margins, paddings */
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.m-5 {
+  margin: 5px;
+}
+.mr-30 {
+  margin-right: 32px;
+}
+
+/*Flexes*/
+.d-flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-ev {
+  justify-content: space-evenly;
+}
+
+.space-btw {
+  justify-content: space-between;
+}
+
+.grow1 {
+  flex: 1;
+}
+
+.grow2 {
+  flex: 2;
+}
+.align-self-center {
+  align-self: center;
+}
+
+/* Modal */
+.darkBG {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal {
+  width: 650px;
+  height: 300px;
+  background: white;
+  color: white;
+  z-index: 10;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+}
+
+.modalHeader {
+  height: 50px;
+  background: white;
+  overflow: hidden;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.heading {
+  margin: 0;
+  padding: 10px;
+  color: #2c3e50;
+
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.modalContent {
+  padding: 10px;
+  font-size: 14px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.modalActions {
+  position: absolute;
+  bottom: 2px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.closeBtn {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  color: #2c3e50;
+  background: white;
+  transition: all 0.25s ease;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.06);
+  position: absolute;
+  right: 0;
+  top: 0;
+  align-self: flex-end;
+  margin-top: -7px;
+  margin-right: -7px;
+}
+
+.closeBtn:hover {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  transform: translate(-4px, 4px);
+}
+
+.cancelBtn {
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 11px 28px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  border: none;
+  color: #ffffff;
+  background: #000000;
+  transition: all 0.25s ease;
+}
+
+.cancelBtn:hover {
+  box-shadow: none;
+  transform: scale(1.1);
+  background: #000000;
+}
