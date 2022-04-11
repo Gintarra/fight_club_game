@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fight_club_game/static/css/main.0113b412.css",
+    "main.js": "/fight_club_game/static/js/main.cbfbee1c.js",
+    "static/js/787.563d7ef9.chunk.js": "/fight_club_game/static/js/787.563d7ef9.chunk.js",
+    "index.html": "/fight_club_game/index.html",
+    "main.0113b412.css.map": "/fight_club_game/static/css/main.0113b412.css.map",
+    "main.cbfbee1c.js.map": "/fight_club_game/static/js/main.cbfbee1c.js.map",
+    "787.563d7ef9.chunk.js.map": "/fight_club_game/static/js/787.563d7ef9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0113b412.css",
+    "static/js/main.cbfbee1c.js"
+  ]
+}
