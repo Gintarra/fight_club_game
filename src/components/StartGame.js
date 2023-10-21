@@ -114,16 +114,13 @@ const StartGame = ({}) => {
                     <h2 className='text-center'>Stats:</h2>
                     <div className='d-flex'>
                         <ul>
-                            One more change from master
                             <li>Damage: {x.damage}</li>
-                            from new branch
                             <li>Health: {x.health}</li>
                             <li>Energy: {x.energy}</li>
                             <li>Stamina: {x.stamina}</li>
                             <li>Strength: {x.strength}</li>
                             <li>Inventory slots: {x.inventorySlots}</li>
                             <li>Gold: {x.gold}</li>
-                            Changes from master
                         </ul>
                     </div>
                 </div>)}
