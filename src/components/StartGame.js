@@ -121,6 +121,7 @@ const StartGame = ({}) => {
                             <li>Strength: {x.strength}</li>
                             <li>Inventory slots: {x.inventorySlots}</li>
                             <li>Gold: {x.gold}</li>
+                            Changes from master
                         </ul>
                     </div>
                 </div>)}
