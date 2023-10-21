@@ -114,6 +114,7 @@ const StartGame = ({}) => {
                     <h2 className='text-center'>Stats:</h2>
                     <div className='d-flex'>
                         <ul>
+                            One more change from master
                             <li>Damage: {x.damage}</li>
                             <li>Health: {x.health}</li>
                             <li>Energy: {x.energy}</li>
