@@ -116,6 +116,7 @@ const StartGame = ({}) => {
                         <ul>
                             One more change from master
                             <li>Damage: {x.damage}</li>
+                            from new branch
                             <li>Health: {x.health}</li>
                             <li>Energy: {x.energy}</li>
                             <li>Stamina: {x.stamina}</li>
